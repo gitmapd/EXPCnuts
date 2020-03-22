@@ -3,7 +3,5 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - matplotlib=3.2.1=0
-  - matplotlib-base=3.2.1=py38h2af1d28_0
-  - numpy=1.18.1=py38h95a1406_0
-  - openssl=1.1.1e=h516909a_0
+  - matplotlib
+  - numpy
