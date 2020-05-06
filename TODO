@@ -1,0 +1,8 @@
+[1] draw inset grid rectangles using nested loops (x,y) and a "draw_rect_inset(canvas,min,max,color, inset_distance)"
+[2] change that to "draw a grid" with a plugin function to draw the contents of each grid, e.g extent it to draw a grid 
+of circles or grid of rectangles using the same grid loop code (need to read how to pass functions as variables, it's easy enough)
+[3]  regarding Stepsize:  2 versions of the grid :   the first you have is told the grid cell size. the next version  divides 
+the min-max area into a requested number of cells. e.g. "draw a 5 x 5 grid, across the whole screen, whatever size it is"
+[4] draw a chessboard (alternating grid fill colours) swap those ideas around, see which seems easiest to approach
+(you can use their draw filled outline function for the chessboard)
+each one of those will introduce 1 new idea 
